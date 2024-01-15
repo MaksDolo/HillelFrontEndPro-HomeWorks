@@ -2,14 +2,13 @@ const array = [16, -37, 54, -4, 72, -56, 47, 4, -16, 25, -37, 46, 4, -51, 27, -6
 
 //! Знайти суму та кількість позитивних елементів.
 
-// const allIndex = array.sort(function sortNumber(a, b) {
-//     return a - b;
+// const positiveNumber = array.filter(function (item, index, array) {
+//     return item > 0;
 // });
-// array.splice(0, 10);
 // const sumArr = array.reduce(function (previousValue, item, index, array) {
 //     return item + previousValue;
 // }, 0);
-// const positiveIndex = allIndex.length;
+// const positiveIndex = positiveNumber.length;
 // console.log(`Количество положительных чисел: ${positiveIndex}`);
 // console.log(`Сумма всех положительных чисел массива: ${sumArr}`);
 
@@ -73,11 +72,10 @@ const array = [16, -37, 54, -4, 72, -56, 47, 4, -16, 25, -37, 46, 4, -51, 27, -6
 
 //!Знайти добуток позитивних елементів.
 
-// const allIndex = array.sort(function sortNumber(a, b) {
-//     return a - b;
+// const positiveNumber = array.filter(function (item, index, array) {
+//     return item > 0;
 // });
-// const positiveNum = array.splice(10, 24);
-// const sumPositive = positiveNum.reduce(function(previousValue, currentValue,  index, array) {
+// const sumPositive = positiveNumber.reduce(function(previousValue, currentValue,  index, array) {
 //     return previousValue * currentValue;
 // });
 // console.log(`Умножение всех позитивных элементов: ${sumPositive}`);
