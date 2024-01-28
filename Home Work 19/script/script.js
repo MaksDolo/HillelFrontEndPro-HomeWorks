@@ -7,5 +7,5 @@ function isPowerOf(num, degree) {
     }
 };
 
-let result = isPowerOf(2, 10);
-console.log(result); 
+let resultPower = isPowerOf(2, 10);
+console.log(resultPower); 
