@@ -45,21 +45,21 @@
 
 // =================================================================================
 
-// function getArrayFromUser() {
-//     let inputRows = prompt(`Input number of rows`);
-//     let inputColumns = prompt(`Input number of columns`);
-//     let arr = [];
-//     for (let i = 0; i < inputRows; i++) {
-//         arr[i] = new Array(inputColumns);
-//         arr[i].forEach(function (_, index, array) {
-//             array[index] = prompt(`Input namber of element [${i}]`)
-//         })
-//     }
-//     return arr;
-// }
+function getArrayFromUser() {
+    let inputRows = prompt(`Input number of rows`);
+    let inputColumns = prompt(`Input number of columns`);
+    let arr = [];
+    for (let i = 0; i < inputRows; i++) {
+        arr[i] = new Array(inputColumns);
+        arr[i].forEach(function (_, index, array) {
+            array[index] = prompt(`Input namber of element [${i}]`)
+        })
+    }
+    return arr;
+}
 
-// let twoArray = getArrayFromUser();
-// console.log(twoArray);
+let twoArray = getArrayFromUser();
+console.log(twoArray);
 
 // =======================================================================
 
