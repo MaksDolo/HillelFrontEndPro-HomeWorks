@@ -1,0 +1,11 @@
+#divBar {
+    margin-left: 20px;
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
